@@ -79,6 +79,20 @@
         .market-challenge-italic-text {
             color: #d97706; /* Lighter amber italic text for warning */
         }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #e2e8f0; /* Light gray border */
+            padding: 0.75rem;
+            text-align: left;
+        }
+        .data-table th {
+            background-color: #e0e5e0; /* Lighter olive for table headers */
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
@@ -96,9 +110,9 @@
             </div>
             <div class="card p-6 flex flex-col md:flex-row items-center gap-6">
                 <div class="flex-1 text-lg">
-                    <p class="mb-2"><strong>Goal:</strong> Facilitate a strategic and successful exit for Paola & Bhuvesh from the Laurel Airbnb business.</p>
-                    <p class="mb-2"><strong>Key Highlights:</strong> The Laurel property has shown <strong>significant capital appreciation in the market</strong> and, despite recent operational losses, holds strong potential.</p>
-                    <p class="mb-2"><strong>Market Context:</strong> Mérida's real estate and tourism markets are robust, characterized by strong property value growth and thriving short-term rental demand, supporting its continued appeal.</p>
+                    <p class="mb-2">Goal: Facilitate a strategic and successful exit for Paola & Bhuvesh from the Laurel Airbnb business.</p>
+                    <p class="mb-2">Key Highlights: The Laurel property has shown significant capital appreciation in the market and, despite recent operational losses, holds strong potential.</p>
+                    <p class="mb-2">Market Context: Mérida's real estate and tourism markets are robust, characterized by strong property value growth and thriving short-term rental demand, supporting its continued appeal.</p>
                     <p class="font-semibold text-xl positive-highlight-text">Outlook: Positive for a strategic divestment!</p>
                 </div>
             </div>
@@ -147,16 +161,16 @@
                     </ul>
                     <div class="highlight-box positive-highlight-bg">
                         <p class="font-bold positive-highlight-text mb-2">Understanding "Aportación Patronal":</p>
-                        <p class="text-sm text-gray-700">This is a Mexican perk where the employer contributes a specific amount towards your Infonavit credit. It is **not** deducted from the employee's salary.</p>
+                        <p class="text-sm text-gray-700">This is a Mexican perk where the employer contributes a specific amount towards your Infonavit credit. It is not deducted from the employee's salary.</p>
                         <p class="text-sm text-gray-700 mt-1">If employment ends, this contribution ceases, but it does not mean the Infonavit credit amount increases; simply that this specific deposit to the credit stops.</p>
                     </div>
                     <p class="text-sm text-gray-500 mt-2"><em>*This covers all financial activity from June 2022 to May 2025.*</em></p>
 
                     <h3 class="text-xl font-semibold mb-3 text-blue-800 mt-6">🇲🇽 Mérida Market Context</h3>
                     <ul class="space-y-2">
-                        <li class="icon-text"><span class="icon">&#128100;</span> Population Growth: <strong>3.3% annually</strong> (~9K new households/year, 19K new residents/year).</li>
-                        <li class="icon-text"><span class="icon">&#128101;</span> Expat Community: <strong>~10,000 total</strong> (US/Canada), 4,000 annually.</li>
-                        <li class="icon-text"><span class="icon">&#127963;</span> Tourism Boom: Nearly <strong>2 Million visitors</strong> expected 2024, <strong>14% jump</strong>.</li>
+                        <li class="icon-text"><span class="icon">&#128100;</span> Population Growth: 3.3% annually (~9K new households/year, 19K new residents/year).</li>
+                        <li class="icon-text"><span class="icon">&#128101;</span> Expat Community: ~10,000 total (US/Canada), 4,000 annually.</li>
+                        <li class="icon-text"><span class="icon">&#127963;</span> Tourism Boom: Nearly 2 Million visitors expected 2024, 14% jump.</li>
                         <li class="icon-text"><span class="icon">&#127760;</span> Chichí Suárez (Floresta Residencial): Developing area with newer constructions, residential feel, and amenities, appealing to Airbnb guests.</li>
                     </ul>
                 </div>
@@ -167,11 +181,57 @@
                         <ul class="list-disc list-inside text-sm market-challenge-list-text">
                             <li>"Rents in some Mérida neighborhoods will drop as supply surpasses demand."</li>
                             <li>Northern Mérida experiencing a boom leading to oversupply.</li>
-                            <li>Approx. <strong>62,000 empty houses</strong> in Mérida.</li>
+                            <li>Approx. 62,000 empty houses in Mérida.</li>
                         </ul>
                         <p class="text-xs italic market-challenge-italic-text mt-2">Laurel's specific micro-location is crucial for future stability and rental income.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Key Operational Service Costs -->
+        <section class="mb-8">
+            <div class="section-header">
+                Key Operational Service Costs
+            </div>
+            <div class="card p-6">
+                <h3 class="text-xl font-semibold mb-3 text-blue-800">💡 CFE (Electricity) Payment Summary (June 2023 – April 2025)</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Period</th>
+                            <th>Amount (MXN)</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Jun 2023 – Aug 2023</td><td>683</td><td>First invoice (bimonthly)</td></tr>
+                        <tr><td>Oct 2023 – Dec 2023</td><td>415</td><td>Lower consumption</td></tr>
+                        <tr><td>Dec 2023 – Feb 2024</td><td>1,834</td><td>Higher winter consumption</td></tr>
+                        <tr><td>Feb 2024 – Apr 2024</td><td>3,344</td><td>Peak usage (summer prep)</td></tr>
+                        <tr><td>Apr 2024 – Jun 2024</td><td>877</td><td>Subsidy applied</td></tr>
+                        <tr><td>Jun 2024 – Aug 2024</td><td>3,749</td><td>Summer peak</td></tr>
+                        <tr><td>Aug 2024 – Oct 2024</td><td>3,339</td><td>High usage</td></tr>
+                        <tr><td>Oct 2024 – Dec 2024</td><td>3,236</td><td>Seasonal adjustment</td></tr>
+                        <tr><td>Dec 2024 – Feb 2025</td><td>2,767</td><td>Reduced consumption</td></tr>
+                        <tr><td>Feb 2025 – Apr 2025</td><td>4,901</td><td>Highest bill (summer surge)</td></tr>
+                    </tbody>
+                </table>
+                <p class="text-lg font-bold mt-4">Total Paid: <span class="value-display">24,145 MXN</span></p>
+                <p class="text-sm text-gray-500">(~1,238 USD at 19.50 MXN/USD)</p>
+                <h4 class="font-semibold mt-4 mb-2">Key Observations:</h4>
+                <ul class="list-disc list-inside text-sm text-gray-700">
+                    <li>Seasonal Peaks: Summer (Jun–Aug) shows highest bills (e.g., 3,749 MXN in Jun–Aug 2024). Winter (Dec–Feb) shows moderate spikes (e.g., 1,834 MXN in Dec 2023–Feb 2024).</li>
+                    <li>Subsidy Impact: Lower payments in Apr–Jun 2024 (877 MXN) due to government support.</li>
+                    <li>Trend: Feb–Apr 2025 hit 4,901 MXN (likely due to rate hikes or extreme usage).</li>
+                </ul>
+
+                <h3 class="text-xl font-semibold mb-3 mt-6 text-blue-800">📊 Other Essential Services</h3>
+                <ul class="space-y-2">
+                    <li class="icon-text"><span class="icon">&#x2022;</span> Bebbia (Water/Services): <span class="value-display">$7,416 MXN</span></li>
+                    <li class="icon-text"><span class="icon">&#x2022;</span> Telmex (Internet/Telecom): <span class="value-display">$8,625 MXN</span></li>
+                    <li class="icon-text"><span class="icon">&#x2022;</span> Predial (Property Tax) per year: <span class="value-display">$3,646 MXN</span></li>
+                </ul>
             </div>
         </section>
 
@@ -184,9 +244,9 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-3 text-blue-800">📈 Mérida Real Estate Trends</h3>
                     <ul class="space-y-2">
-                        <li class="icon-text"><span class="icon">&#128200;</span> Used Housing Prices: <strong>+14.6% Annually</strong></li>
-                        <li class="icon-text"><span class="icon">&#127969;</span> New Construction Costs: <strong>+15.6% Annually</strong></li>
-                        <li class="icon-text"><span class="icon">&#128220;</span> Near New Developments: <strong>+15-20% above avg.</strong></li>
+                        <li class="icon-text"><span class="icon">&#128200;</span> Used Housing Prices: 14.6% Annually</li>
+                        <li class="icon-text"><span class="icon">&#127969;</span> New Construction Costs: 15.6% Annually</li>
+                        <li class="icon-text"><span class="icon">&#128220;</span> Near New Developments: 15-20% above avg.</li>
                         <li class="icon-text"><span class="icon">&#127966;</span> New Cipres Plus Model (Floresta Residencial): Currently priced at <span class="value-display">$2,760,000.00 MXN</span> (Suggests appreciation for new builds).</li>
                     </ul>
                     <p class="text-sm text-gray-600 mt-3">Mérida generally outperforms national averages (7.8% used, 9.2% new).</p>
@@ -195,8 +255,8 @@
                     <h3 class="text-xl font-semibold mb-3 text-blue-800">🔍 Valuation Approach & Current Status</h3>
                     <p class="mb-2">We typically use two primary methods:</p>
                     <ul class="space-y-2 mb-4">
-                        <li class="icon-text"><span class="icon">&#128270;</span> <strong>Comparative Market Analysis (CMA):</strong> Based on recent sales of similar properties.</li>
-                        <li class="icon-text"><span class="icon">&#128176;</span> <strong>Income Capitalization Approach:</strong> Values property based on its income-generating potential (using NOI).</li>
+                        <li class="icon-text"><span class="icon">&#128270;</span> Comparative Market Analysis (CMA): Based on recent sales of similar properties.</li>
+                        <li class="icon-text"><span class="icon">&#128176;</span> Income Capitalization Approach: Values property based on its income-generating potential (using NOI).</li>
                     </ul>
                     <div class="highlight-box bg-yellow-50 border-yellow-300">
                         <p class="font-bold text-yellow-700 mb-2">Crucial Next Step: Professional Appraisal Needed!</p>
@@ -208,6 +268,21 @@
                         <p class="text-xs italic text-yellow-500 mt-2">A definitive estimated current value of your investment awaits this appraisal.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Next Steps for Cash Out -->
+        <section class="mb-8">
+            <div class="section-header">
+                Next Steps for Cash Out
+            </div>
+            <div class="card p-6">
+                <p class="mb-4">Once the professional appraisal for Laurel's current market value is obtained, we can proceed with the following calculations to determine the cash out:</p>
+                <ul class="space-y-3 list-disc list-inside text-lg">
+                    <li>Current Net Equity: Appraised Market Value - Outstanding Mortgage/Debt.</li>
+                    <li>Total Profit/Loss: Current Net Equity + Cumulative Operational Net Profit/Loss (from Section 2) - Grand Total Initial Investment.</li>
+                    <li>Proposed Cash-Out Calculation: Based on Paola and Bhuvesh's individual contributions and the overall profit/loss, a clear calculation of their share of the net equity or profit can be presented.</li>
+                </ul>
             </div>
         </section>
 
@@ -247,34 +322,34 @@
                     </ul>
                 </div>
                 <div class="md:col-span-2">
-                    <h3 class="text-xl font-semibold mb-3 text-blue-800">🚀 Recommendations for Maximizing Exit Value</h3>
+                    <h3 class="text-xl font-semibold mb-3 text-blue-800">🚀 Forward-Looking Recommendations</h3>
                     <ul class="space-y-4">
                         <li class="icon-text items-start">
-                            <span class="icon text-2xl">&#128197;</span>
+                            <span class="icon text-2xl">&#128178;</span>
                             <div>
-                                <strong class="text-lg">Strategic Timing:</strong>
-                                <p class="text-gray-700">Given the operational loss and potential for oversupply in northern Mérida, proactive selling is advised, especially if Laurel's micro-location is affected, to avoid further rental market softening impacting property value.</p>
+                                <strong class="text-lg">For Paola & Bhuvesh's Equitable Cash-Out:</strong>
+                                <p class="text-gray-700">The key to maximizing your cash-out is securing a fair appraisal of the property. The buyout terms should then be structured clearly based on your individual contributions and the property's determined value.</p>
                             </div>
                         </li>
                         <li class="icon-text items-start">
-                            <span class="icon text-2xl">&#128227;</span>
+                            <span class="icon text-2xl">&#127966;</span>
                             <div>
-                                <strong class="text-lg">Targeted Marketing:</strong>
-                                <p class="text-gray-700">Market to <strong>Expatriates</strong> (highlighting Mérida appeal & lifestyle suitability) and <strong>Real Estate Investors</strong> (emphasizing proven track record and income potential despite current operational loss, focusing on future growth). Prepare a "business prospectus" to showcase the venture, not just the physical asset.</p>
-                            </div>
-                        </li>
-                        <li class="icon-text items-start">
-                            <span class="icon text-2xl">&#128077;</span>
-                            <div>
-                                <strong class="text-lg">Effective Property Presentation:</strong>
-                                <p class="text-gray-700">Highlight Laurel's unique features, amenities, and strategic location (e.g., "great added value" if in Chichí Suárez, proximity to amenities). For an Airbnb, showcasing strong operational practices, even amidst an initial loss, and emphasizing the property's potential to generate income is vital. If in an oversupplied area, differentiate the property strongly.</p>
+                                <strong class="text-lg">For Roxana & Ignacio's Long-Term Strategy:</strong>
+                                <p class="text-gray-700">Transitioning to fixed-term rentals (1-3 years) offers several positive benefits:</p>
+                                <ul class="list-disc list-inside text-sm text-gray-600 mt-1 mb-2">
+                                    <li>Increased Stability: Ensures consistent monthly income, reducing the variability and management intensity associated with short-term rentals.</li>
+                                    <li>Reduced Operational Costs: Potentially lowers expenses related to frequent cleaning, guest services, and marketing efforts.</li>
+                                    <li>Predictable Cash Flow: Provides a clearer financial outlook for managing ongoing credit payments (approx. ~HSBC $8,038 MXN and ~Infonavit $9,324 MXN monthly).</li>
+                                </ul>
+                                <p class="text-gray-700 mt-1">Initially, each investor contributed ~$5,000 MXN monthly to this. Currently, Bhuvesh is covering Paola's former share in addition to his own, ensuring credit continuity.</p>
+                                <p class="text-gray-700 mt-1">Focus on Tenant Stability: Prioritize securing reliable long-term tenants to ensure consistent cash flow and a predictable operational model for the property.</p>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="text-center mt-8 text-gray-500 text-sm">
-                <p>This infographic summarizes key findings. For detailed analysis, refer to the full report.</p>
+                <p>This infographic summarizes key findings. </p>
             </div>
         </section>
     </div>
